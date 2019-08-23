@@ -1,0 +1,24 @@
+# --- Fake SMTP Server
+#The SMTP Server Port used by the Fake SMTP Server
+fakesmtp.port=5025
+server.servlet.context-path=/email
+
+#The binding address of the Fake SMTP Server; Bound to all interfaces by default / no value
+fakesmtp.bindAddress=
+
+#The maximum number of emails which should be stored in the database; Defualts to 100
+fakesmtp.persistence.maxNumberEmails=100  
+
+# --- Authentication
+#Username of the client to be authenticated
+fakesmtp.authentication.username
+
+#Password of the client to be authenticated
+fakesmtp.authentication.password          
+
+# --- Web UI
+#Port of the web interface
+server.port=5080     
+
+#Port of the http management api
+management.port=5081 
