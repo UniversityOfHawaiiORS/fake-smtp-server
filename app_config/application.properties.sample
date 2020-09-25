@@ -22,3 +22,8 @@ server.port=5080
 
 #Port of the http management api
 management.port=5081 
+
+#H2 Database persistence
+#spring.datasource.url=jdbc:h2:mem:mail
+spring.datasource.url=jdbc:h2:file:~/github/fake-smtp-server/DB/testmails.db;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1;
+spring.jpa.hibernate.ddl-auto = update
