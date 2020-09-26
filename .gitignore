@@ -29,4 +29,3 @@ app_config/application.properties
 log
 running.pid
 java.config
-DB/
