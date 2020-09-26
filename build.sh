@@ -37,10 +37,10 @@ done
 if [ ${clean} == "Y" ]
 then
     echo "Running clean first"
-    gradlew clean
+    ./gradlew clean
 fi
 
 echo "Running gradle build"
-gradlew build
+./gradlew build
 
 
