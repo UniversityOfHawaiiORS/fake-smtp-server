@@ -47,5 +47,5 @@ yarn-error.log*
 *.log
 *.patch
 
-application.properties
 running.pid
+DB/*
