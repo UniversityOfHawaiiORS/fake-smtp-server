@@ -2,7 +2,8 @@ BASEDIR=`dirname $0`
 
 CLEAR=$1
 
-JAR_FILE="${BASEDIR}/build/libs/fake-smtp-server-2.4.1.jar"
+#JAR_FILE="${BASEDIR}/build/libs/fake-smtp-server-2.4.1.jar"
+JAR_FILE="${BASEDIR}/build/libs/fake-smtp-server-2.4.2-uh-main-SNAPSHOT.jar"
 
 mkdir -p ${BASEDIR}/log
 

@@ -48,3 +48,4 @@ yarn-error.log*
 *.patch
 
 application.properties
+running.pid
